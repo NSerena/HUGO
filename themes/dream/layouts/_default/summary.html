@@ -1,0 +1,17 @@
+<article class="ui attached segment card dream-card">
+  <a class="image" href="{{ .Permalink }}">
+    {{ if isset .Params "cover" }}
+    <img src="/static/img/portada1.jpg" alt="{{ .Title }}" />
+    {{ else }}
+  
+   <img src="{{ "/img/" }}grupo{{ index (shuffle (seq 1 4)) 0 }}.jpg"  />
+    {{ end }}
+  </a> 
+  
+
+  <div class="content">
+    <h2 class="ui medium header">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+  </div>
+</article>
