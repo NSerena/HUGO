@@ -9,6 +9,7 @@ It is full in Spanish because it was an assignment.
 brew install hugo
 ### Windows
 choco install hugo -confirm (Chocolatey)
+
 scoop install hugo (Scoop)
 
 cd HUGO
