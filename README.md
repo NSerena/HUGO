@@ -8,11 +8,12 @@ It is full in Spanish because it was an assignment.
 ### Linux
 brew install hugo
 ### Windows
-choco install hugo -confirm (Chocolatey)
+-choco install hugo -confirm (Chocolatey)
 
-scoop install hugo (Scoop)
+-scoop install hugo (Scoop)
 
-cd HUGO
-HUGO server
+-cd HUGO
+
+-HUGO server
 
 It will open in http://localhost:1313
