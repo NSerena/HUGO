@@ -11,7 +11,7 @@ brew install hugo
 choco install hugo -confirm (Chocolatey)
 scoop install hugo (Scoop)
 
-cd HUGO-main
+cd HUGO
 HUGO server
 
 It will open in http://localhost:1313
