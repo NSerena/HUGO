@@ -6,14 +6,14 @@ It is full in Spanish because it was an assignment.
 
 ## Instalation
 ### Linux
-brew install hugo
+-brew install hugo
 ### Windows
 -choco install hugo -confirm (Chocolatey)
 
 -scoop install hugo (Scoop)
 
--cd HUGO
+cd HUGO
 
--HUGO server
+HUGO server
 
 It will open in http://localhost:1313
